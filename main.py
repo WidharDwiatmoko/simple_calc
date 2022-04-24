@@ -16,7 +16,8 @@ print("""Masukkan operasi:
         1 : penjumlahan
         2 : pengurangan
         3 : pembagian
-        4 : perkalian""")
+        4 : perkalian
+        5 : modulo""")
 operasi = int(input("Masukkan operasi: "))
 
 if operasi == 1:
@@ -27,5 +28,7 @@ elif operasi == 3:
     print(angka1/angka2)
 elif operasi == 4 :
     print(angka1*angka2)
+elif operasi == 5 :
+    print(angka1%2)
 else:
     print("operasi gagal")
